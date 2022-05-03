@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
-from categories_and_tag.models import Tags,Categories
+from categories_and_tags.models import Tags,Categories
 
 # Create your models here.
 class Post(models.Model):
